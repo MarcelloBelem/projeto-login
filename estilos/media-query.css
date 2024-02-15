@@ -8,6 +8,7 @@
 
     section#login {
         width: 90vw;
+        height: 400px;
 
         & div#img {
             background: cadetblue url(../img/tablet.jpg);
@@ -23,32 +24,6 @@
             width: 60%;
         }
     }
-
-    div#formulario {
-        font-size: 1.8em;
-    }
-
-    form > div#c1 {
-        margin-top: 50px;
-    }
-
-    form > div#c2 {
-        margin-top: 15px;
-    }
-
-    form > div.campo {
-        height: 60px;
-    }
-
-    form input[type=submit] {
-        margin-top: 30px;
-        height: 60px;
-    }
-
-    form a.botao {
-        margin-top: 15px;
-        height: 60px;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -59,7 +34,7 @@
 
     section#login {
         width: 990px;
-        height: 600px;
+        height: 400px;
 
         & div#img {
             background: cadetblue url(../img/Fundo.jpg);
@@ -78,7 +53,13 @@
     }
 
     div#formulario {
-        font-size: 1.7em;
-    }
+        
+        & h1 {
+            font-size: 2em;
+        }
 
+        & p {
+            font-size: 1.3em;
+        }
+    }
 }
