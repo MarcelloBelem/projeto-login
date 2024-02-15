@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px ) {
-    
+
+    body {
+        background-image: linear-gradient(to top, #C50000, #D16800);
+    }
+
+    section#login {
+        width: 90vw;
+
+        & div#img {
+            background: cadetblue url(../img/tablet.jpg);
+            background-size: cover;
+            background-position: center center;
+            float: left;
+            width: 40%;
+            height: 100%;
+        }
+
+        & div#formulario {
+            float: right;
+            width: 60%;
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #C50000, #D16800);
+    }
+
+    section#login {
+        width: 990px;
+        height: 600px;
+
+        & div#img {
+            background: cadetblue url(../img/Fundo.jpg);
+            background-size: cover;
+            background-position: center center;
+            float: left;
+            width: 40%;
+            height: 100%;
+        }
+
+        & div#formulario {
+            float: right;
+            width: 60%;
+            height: 100%;
+        }
+    }
 }
