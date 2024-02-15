@@ -24,6 +24,31 @@
         }
     }
 
+    div#formulario {
+        font-size: 1.8em;
+    }
+
+    form > div#c1 {
+        margin-top: 50px;
+    }
+
+    form > div#c2 {
+        margin-top: 15px;
+    }
+
+    form > div.campo {
+        height: 60px;
+    }
+
+    form input[type=submit] {
+        margin-top: 30px;
+        height: 60px;
+    }
+
+    form a.botao {
+        margin-top: 15px;
+        height: 60px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -40,15 +65,20 @@
             background: cadetblue url(../img/Fundo.jpg);
             background-size: cover;
             background-position: center center;
-            float: left;
+            float: right;
             width: 40%;
             height: 100%;
         }
 
         & div#formulario {
-            float: right;
+            float: left;
             width: 60%;
             height: 100%;
         }
     }
+
+    div#formulario {
+        font-size: 1.7em;
+    }
+
 }

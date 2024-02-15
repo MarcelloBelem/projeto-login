@@ -10,7 +10,7 @@
 }
 
 body, html {
-    background-color: #C50000;
+    background-color: #8A0000;
     height: 100vh;
     width: 100vw;
 }
@@ -32,7 +32,8 @@ section#login {
     width: 90vw;
     height: 80vh;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.600);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border: 3px solid #D36600;
 
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
@@ -45,7 +46,7 @@ section#login {
         background: cadetblue url(../img/celular.jpg);
         background-size: cover;
         background-position: center center;
-        height: 45vh;
+        height: 40vh;
     }
 
     & div#formulario {
@@ -54,3 +55,73 @@ section#login {
     }
 
 }
+
+div#formulario {
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2.5em;
+
+    }
+    
+    p {
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+}
+
+form > div.campo {
+    display: block;
+    background-color: #d61010;
+    width: 90%;
+    height: 40px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+div.campo > input {
+    width: 90%;
+    height: 70%;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    width: 90%;
+    height: 40px;
+    background-color: #D16900;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #ff8002;
+} 
+
+form > a.botao {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+    color: #D16900;
+    border: 1px solid #D16900;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #D16900;
+    color: white;
+} 
